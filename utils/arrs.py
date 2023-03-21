@@ -11,12 +11,13 @@ def get(array, index, default=None):
     :param default: значение по-умолчанию.
     :return: значение по индексу или значение по-умолчанию.
     """
-    if index  not in array:
+    if index not in array:
         return default
 
     return array[index]
 
 
+#dfgd
 def my_slice(coll, start=0, end=None):
     """
     Возвращает новый массив, содержащий копию части исходного массива.
